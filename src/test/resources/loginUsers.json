@@ -1,0 +1,14 @@
+{
+  "invalidUser":{
+    "username":"chetanrakheja@gmail.com",
+    "password":"Chetan@1234"
+  },
+  "invalidPassword":{
+    "username":"rakhejachetan.dev@gmail.com",
+    "password":"invalidpassword"
+  },
+  "validUser":{
+    "username":"rakhejachetan.dev@gmail.com",
+    "password":"Chetan@1234"
+  }
+}
