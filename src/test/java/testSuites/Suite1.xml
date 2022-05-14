@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Wallet Suite">
-    <test name="Wallet Test">
+<suite name="UpKeep Suite">
+    <test name="upkeep Test">
         <classes>
             <class name = "test.SignUpTest"/>
             <class name = "test.loginTest"/>

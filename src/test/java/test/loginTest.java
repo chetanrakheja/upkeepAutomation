@@ -57,8 +57,7 @@ public class loginTest extends BaseTest {
     public void failLoginJson(){
 //        LoginFeature loginFeature=new LoginFeature();
         loginFeature.login(usersJSON.getJSONObject("invalidUser").getString("username"),
-                usersJSON.getJSONObject("invalidUser").getString("password"))
-                ;
+                usersJSON.getJSONObject("invalidUser").getString("password"));
 
     }
 
