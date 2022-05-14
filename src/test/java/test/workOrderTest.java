@@ -44,7 +44,7 @@ public class workOrderTest extends BaseTest {
         }
     }
 
-
+//Combined Cases for Demo Video Purpose
     @Test
     public void Login_CreateWorkOrder_LogoutTest(){
         homePage.gotoHomePageAfterLogin(
