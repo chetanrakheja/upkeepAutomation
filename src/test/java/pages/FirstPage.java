@@ -9,10 +9,10 @@ public class FirstPage extends BaseTest {
 //    TestUtils utils = new TestUtils();
 
     @AndroidFindBy(id="button_sign_up")
-    WebElement signUpBtn;
+    private WebElement signUpBtn;
 
     @AndroidFindBy(id="ll_log_in")
-    WebElement logInBtn;
+    private WebElement logInBtn;
 
     public FirstPage clickOnLogin(){
         click(logInBtn);

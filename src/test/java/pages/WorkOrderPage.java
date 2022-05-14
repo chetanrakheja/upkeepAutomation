@@ -9,28 +9,28 @@ public class WorkOrderPage extends BaseTest {
 
 //    @AndroidFindBy(id="action_item_create_work_order")
     @AndroidFindBy(xpath = "//*[@text='Work Order']")
-    WebElement createWorkOrderBtn;
+    private WebElement createWorkOrderBtn;
 
     @AndroidFindBy(id="work_order_title")
-    WebElement workOrderTitle;
+    private WebElement workOrderTitle;
 
     @AndroidFindBy(id="additional_notes")
-    WebElement workOrderDesc;
+    private WebElement workOrderDesc;
 
     @AndroidFindBy(id="none")
-    WebElement nonePriority;
+    private WebElement nonePriority;
 
     @AndroidFindBy(id="one")
-    WebElement lowPriority;
+    private WebElement lowPriority;
 
     @AndroidFindBy(id="two")
-    WebElement mediumPriority;
+    private WebElement mediumPriority;
 
     @AndroidFindBy(id="three")
-    WebElement highPriority;
+    private WebElement highPriority;
 
     @AndroidFindBy(id="save")
-    WebElement saveWorkOrderBtn;
+    private WebElement saveWorkOrderBtn;
 
     public WorkOrderPage clickOnWorkOrderBtn(){
         click(createWorkOrderBtn);

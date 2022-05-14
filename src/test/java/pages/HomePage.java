@@ -9,21 +9,21 @@ public class HomePage extends BaseTest {
 
 
     @AndroidFindBy(id="bottom_nav_center")
-    WebElement addButton;
+    private WebElement addButton;
 
     @AndroidFindBy(id="action_settings")
-    WebElement settingsBtn;
+    private WebElement settingsBtn;
 
     @AndroidFindBy(id="rl_logout")
-    WebElement logOutBtn;
+    private WebElement logOutBtn;
 
 //    @AndroidFindBy(id="button1")
     @AndroidFindBy(xpath="//*[@text='OK']")
-    WebElement logOutOKBtn;
+    private WebElement logOutOKBtn;
 
 //    @AndroidFindBy(id="button2")
     @AndroidFindBy(xpath = "//*[@text='CANCEL']")
-    WebElement logOutCancelBtn;
+    private WebElement logOutCancelBtn;
 
 
     public HomePage clickOnSettingsBtn(){

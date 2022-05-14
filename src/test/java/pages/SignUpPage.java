@@ -8,49 +8,49 @@ import utils.BaseTest;
 public class SignUpPage extends BaseTest {
 
     @AndroidFindBy(id="edit_text_email")
-    WebElement emailTextField;
+    private WebElement emailTextField;
 
     @AndroidFindBy(id="edit_text_password")
-    WebElement passwordField;
+    private  WebElement passwordField;
 
     @AndroidFindBy(id="edit_text_first_name")
-    WebElement fName;
+    private WebElement fName;
 
     @AndroidFindBy(id="edit_text_last_name")
-    WebElement lName;
+    private WebElement lName;
 
     @AndroidFindBy(id="rlClickConsumer")
-    WebElement countryCodeSelect;
+    private WebElement countryCodeSelect;
 
     @AndroidFindBy(id="editText_search")
-    WebElement countrySearch;
+    private WebElement countrySearch;
 
     @AndroidFindBy(id="edit_text_phone_number")
-    WebElement mobileNumField;
+    private WebElement mobileNumField;
 
     @AndroidFindBy(id="edit_text_company_name")
-    WebElement companyName;
+    private WebElement companyName;
 
     @AndroidFindBy(id="edit_text_job_title")
-    WebElement jobTitle;
+    private WebElement jobTitle;
 
     @AndroidFindBy(id="button_signup")
-    WebElement getStartedBtn;
+    private WebElement getStartedBtn;
 
     @AndroidFindBy(id="parentPanel")
-    WebElement errorPanel;
+    private WebElement errorPanel;
 
     @AndroidFindBy(id="button1")
-    WebElement errorPanelOkBtn;
+    private WebElement errorPanelOkBtn;
 
     @AndroidFindBy(id="message")
-    WebElement errorPanelText;
+    private WebElement errorPanelText;
 
     @AndroidFindBy(id="tv_title")
-    WebElement successSignUp;
+    private WebElement successSignUp;
 
     @AndroidFindBy(id="button_sign_up")
-    WebElement signUpBtn;
+    private WebElement signUpBtn;
 
     public SignUpPage gotoSignupPage(){
 //        HomePage homePage = new HomePage();

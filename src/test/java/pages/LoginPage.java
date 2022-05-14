@@ -6,16 +6,16 @@ import utils.BaseTest;
 
 public class LoginPage extends BaseTest {
     @AndroidFindBy(id="edit_text_username")
-    WebElement usernameField;
+    private WebElement usernameField;
 
     @AndroidFindBy(id="edit_text_password")
-    WebElement passwordField;
+    private  WebElement passwordField;
 
     @AndroidFindBy(id="login_button")
-    WebElement loginBtn;
+    private WebElement loginBtn;
 
     @AndroidFindBy(id="ll_log_in")
-    WebElement HomePgLoginBtn;
+    private WebElement HomePgLoginBtn;
 
     public LoginPage gotoLoginPg(){
 //        FirstPage firstPage = new FirstPage();
