@@ -15,7 +15,8 @@ public class SignUpFeature {
 //                .selectCountryCode(countryCode)
                 .enterMobileNum(mobileNum)
                 .enterCompanyName(companyName)
-                .enterJobTitle(jobTitle);
+                .enterJobTitle(jobTitle)
+                .clickOnGetStarted();
 
         if (signUpPage.isErrorPanelVisible()) {
             return signUpPage.getErrorText();

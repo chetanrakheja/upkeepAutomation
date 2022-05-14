@@ -57,8 +57,8 @@ public class BaseTest {
             //Trying To reduce Working Time
             desiredCapabilities.setCapability("ignoreUnimportantViews", true);
             desiredCapabilities.setCapability("disableAndroidWatchers", true);
-            desiredCapabilities.setCapability("resetKeyboard", true);
-            desiredCapabilities.setCapability("unicodeKeyboard", true);
+//            desiredCapabilities.setCapability("resetKeyboard", true);
+//            desiredCapabilities.setCapability("unicodeKeyboard", true);
 
             URL url = new URL("http://127.0.0.1:4723/wd/hub");
 

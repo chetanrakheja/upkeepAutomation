@@ -68,6 +68,7 @@ public class SignUpPage extends BaseTest {
 
     public SignUpPage enterPassword(String password){
 //        clear(passwordField);
+        click(passwordField);
         sendKeys(passwordField,password);
         return this;
     }

@@ -45,6 +45,7 @@ public class WorkOrderPage extends BaseTest {
         return this;
     }
     public WorkOrderPage enterWorkOrderDesc(String workOrderDescStr){
+        click(workOrderDesc);
         sendKeys(workOrderDesc,workOrderDescStr);
         return this;
     }

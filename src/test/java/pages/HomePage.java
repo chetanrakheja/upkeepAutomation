@@ -17,10 +17,12 @@ public class HomePage extends BaseTest {
     @AndroidFindBy(id="rl_logout")
     WebElement logOutBtn;
 
-    @AndroidFindBy(id="button1")
+//    @AndroidFindBy(id="button1")
+    @AndroidFindBy(xpath="//*[@text='OK']")
     WebElement logOutOKBtn;
 
-    @AndroidFindBy(id="button2")
+//    @AndroidFindBy(id="button2")
+    @AndroidFindBy(xpath = "//*[@text='CANCEL']")
     WebElement logOutCancelBtn;
 
 

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Wallet Suite">
+    <test name="Wallet Test">
+        <classes>
+            <class name = "test.SignUpTest"/>
+            <class name = "test.loginTest"/>
+            <class name = "test.workOrderTest"/>
+            <class name = "test.SignOutTest"/>
+        </classes>
+    </test>
+
+</suite>

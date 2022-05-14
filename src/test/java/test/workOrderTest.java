@@ -46,7 +46,7 @@ public class workOrderTest extends BaseTest {
 
 
     @Test
-    public void SuccessTest(){
+    public void Login_CreateWorkOrder_LogoutTest(){
         homePage.gotoHomePageAfterLogin(
                 usersJSON.getJSONObject("validUser").getString("username"),
                 usersJSON.getJSONObject("validUser").getString("password"))
